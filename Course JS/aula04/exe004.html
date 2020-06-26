@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Informações pessoais</title>
+    <style>
+        body{
+            font: normal 12pt Arial;
+            background-color: darkolivegreen;
+        }
+        h1{
+            color: crimson;
+            font: 20pt Arial;
+        }    
+    </style>
+    <h1>Informações</h1>
+    <p>Mostrarei informações sobre você.</p>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Digite seu nome?')
+        document.write(`Olá <strong> ${nome}</strong> <br/>`)
+        document.write(`Seu nome possui ${nome.length} letras <br/>`)
+        document.write(`Seu nome em maiúsculo é <strong> ${nome.toUpperCase()} </strong> <br/>`)
+        document.write(`Seu nome em minúsculo é <strong> ${nome.toLowerCase()} </strong> <br/>`)
+        var CPF = window.prompt('Qual o seu CPF?')
+        document.write(`Seu CPF é ${CPF}`)
+    </script>
+</body>
+</html>

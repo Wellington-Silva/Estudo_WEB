@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+    font: normal Arial 12pt;
+    background-color: #dddddd;
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgb(46, 45, 45);
+    padding: 10px 10px 10px 10px;
+}
+
+/*Cabeçalho*/
+header#cabeçalho {
+    border-bottom: 1px #0d0e0d solid;
+    height: 250px;
+}
+
+header#cabeçalho h1 {
+    font-family: Arial;
+    color: #047a22;
+    font-size: 30pt;
+    text-shadow:  2px 2px 2px rgb(48, 48, 48);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabeçalho h2 {
+    font-size: 15pt;
+    color: #121312;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+nav#manu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 300px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: darkgreen;
+    padding: 3px;
+    margin: 2px;
+}
+
+nav#menu li a:hover {
+    background: rgb(193, 196, 195); 
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #2c2c2c;
+}
+
+/*CORPO*/
+section#corpo {
+    display: block;
+    padding: 15px;
+}
+
+section#corpo h1 {
+    font-family: Arial;
+    font-size: 30;   
+    color: rgb(14, 13, 13);
+}
+
+section#corpo a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section#corpo a:hover {
+    color: #2c2c2c;
+}
+
+/*Rodape*/
+footer#rodape {
+    clear: both;
+    color: black;
+    border-top: 1px solid #0f0f0f;
+}
+
+footer#rodape p {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #131212;
+    text-decoration: none;
+}

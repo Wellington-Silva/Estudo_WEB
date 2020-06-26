@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    background-color:rgb(218, 214, 214);
+    font: Arial, sans-serif;
+}
+
+div#interface {
+    background-color: white;
+    width: 900px;
+    height: auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+}
+
+div#comidas {
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    background:  url('./_imagens/comidas.jpg') no-repeat left bottom;
+}
+
+div#lanches {
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    background:  url('./_imagens/lanches.jpg') no-repeat left bottom;
+}
+
+div#bebidas {
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    background:  url('./_imagens/sucos.jpg') no-repeat left bottom;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+nav#Menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 300px;
+}
+
+nav#Menu li {
+    display: inline-block;
+    background-color: orange;
+    padding: 5px;
+    margin: 2px;
+}
+
+nav#Menu li:hover {
+    background-color: #b6b9b9;
+}
+
+header#cabeçalho {
+    border-bottom: 1px orange solid;
+    height: 150px;
+}
+
+header#cabeçalho h1{
+    color: rgb(199, 131, 5);
+    font-size: 30pt;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabeçalho h2{
+    color: rgb(122, 82, 7);
+    font-size: 15pt;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+section#corpo {
+    display: block;
+    width: 550px;
+    float: left;
+}
+
+section#corpo h2 {
+    font-size: 15pt;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+footer#rodape {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid orange;
+}
