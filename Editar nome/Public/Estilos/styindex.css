@@ -1,0 +1,48 @@
+@charset "UTF"; 
+
+html {
+	font: normal;
+	font-family: Arial, sans-serif;
+	background-color: #c5f5c5;
+}
+
+div#interface {
+	background-color: #f0f0f0;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+
+	width: 600px;
+	height: auto;
+	border-radius: 10px;
+	margin: 20px auto 20px auto;
+
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+div#transform {
+
+}
+
+div#res {
+	margin-top: 10px;
+
+}
+
+header#cabecalho h1{
+	font: normal Arial 20pt;
+	text-shadow: 2px 2px black;
+	color: green;
+}
+
+input#transName {
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+footer#rodape {
+	color: black;
+    text-align: center;
+    font-style: italic;
+}

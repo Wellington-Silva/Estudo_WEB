@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Editar Nome</title>
+		<link rel="stylesheet" href="Public/Estilos/styindex.css">
+	</head>
+	<body>
+		<div id="interface">
+			<header id="cabecalho">
+			<h1>Editar Nome</h1>
+			<h2>Bem vindo(a) ao editar nome</h2>
+		</header>
+		<section id="corpo">
+			<div id="transform">
+				<p>Por favor, digite seu nome: </p>
+				<input type="text" name="nm" id="nome"></input> <br/>
+				<input type="button" value="Maiusculo" id="transName" onclick="tranformUpper()">
+				<input type="button" value="Minusculo" id="transName" onclick="tranformLower()">
+			</div>
+			<div id="res">
+				Aqui irá aparecer seu nome transformado
+			</div>
+		</section>
+		<footer id="rodape">
+			<p>&copy; Wellington</p>
+		</footer>
+		</div>
+		<script src="Public/scripts/script.js"></script>
+	</body>
+</html>
