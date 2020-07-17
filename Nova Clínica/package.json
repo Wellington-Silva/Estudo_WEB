@@ -1,0 +1,6 @@
+{
+    "name": "Nova Clínica",
+    "scripts": {
+        "test": "echo \"Error: no test especified\" & exit 1"
+    }
+}
